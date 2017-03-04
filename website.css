@@ -1,0 +1,99 @@
+body {margin:0;}
+
+#body{
+    background-color: black;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+  display: block;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+.center{
+    margin:auto;    
+    text-align:center;
+    display: block;
+}
+div img{
+    display: block;
+    margin:auto;
+}
+
+#firstphoto{
+    width:100%;
+}
+
+.whiteText{
+    color:#f2f2f2;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.whiteText {
+    font-size: 13pt;
+    padding:10pt;
+}
+
+li{
+    list-style:none;
+}
+input{
+    border:none;
+    outline:none;
+    border-bottom:1px solid black;
+    width:100%;
+    padding:5px;    
+    
+}
+
+#firstInput {
+    margin-right:30px;
+}
+.submit{
+        width:10%;
+}
+#logoTitle{
+    text-transform: uppercase; 
+    margin:0;
+    border:0;
+    font-size:24px;
+    background:transparent;
+    line-height: 1.5em;
+    letter-spacing: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+textarea{
+    resize:none;
+    overflow:hidden;
+    margin: 0 0 10px;
+    min-height: 128px;
+    overflow: auto;
+    min-width: 100%;
+    outline:hidden;
+    padding-bottom: 20px;
+}
+.contactRow{
+    margin-bottom: 12px;
+}
